@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "XBShopView.h"
 #import "SSLCollectionViewLayout.h"
 #import <Masonry.h>
 #import "CollectionShopingCollectionViewCell.h"
@@ -16,7 +15,7 @@
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,SSLCollectionViewLayoutDelegate>
 @property (nonatomic, strong) UICollectionView *colle;
-@property (nonatomic, strong) XBShopView *shopView;
+
 @end
 
 @implementation ViewController
@@ -24,13 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    self.shopView = [[XBShopView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-//    [self.view addSubview:self.shopView];
-//    //    [self.shopView setDataToView];
-//
-//    self.shopView.selectParma = ^(XBSpecModel *parmaModel) {
-//
-//    };
+
     self.view.backgroundColor = [UIColor whiteColor];
     SSLCollectionViewLayout *layout = [[SSLCollectionViewLayout alloc]init];
     layout.sectionEdge = UIEdgeInsetsMake(10, 10, 10, 10);
