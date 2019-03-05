@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   plistInfo.plist
+   AVCaptureRecode
+
+   Created by 刘松松 on 2019/3/5.
+   Copyright (c) 2019年 刘松松. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>https://www.pgyer.com/4iJ5</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+<!--                        <string>在iTunes上安装，显示的图片所在URL路径（备注：若无，需去除该字段）</string>-->
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+<!--                        <string>安装应用显示的图片所在URL路径（备注：若无，需去除该字段）</string>-->
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>update-url</key>
+                    <string>https://www.pgyer.com/4iJ5</string>
+                    <key>bundle-identifier</key>
+                    <string>应用的bundle-identifier值</string>
+                    <key>bundle-version</key>
+                    <string>1.0.0</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>title</key>
+                    <string>熊猫快递</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
